@@ -8,6 +8,7 @@ import Teams from './components/Teams'
 import ContactUs from './components/ContactUs'
 import {Toaster} from 'react-hot-toast'
 import Footer from './components/Footer'
+import WhatsAppButton from "./components/WhatsAppButton";
 
 const App = () => {
 
@@ -60,6 +61,7 @@ const App = () => {
       <OurWork />
       <Teams />
       <ContactUs />
+      <WhatsAppButton />
       <Footer theme={theme}/>
 
     {/* Custom Cursor Ring */}

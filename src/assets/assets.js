@@ -32,6 +32,7 @@ import moon_icon from './moon_icon.svg'
 import networking_icon from './networking_icon.svg'
 import digital_icon from './digital_icon.svg'
 import BrightImage from './BrightImage.jpg'
+import GideonImage from './GideonImage.jpg'
 
 export const company_logos = [
   microsoft_logo,
@@ -71,6 +72,7 @@ const assets = {
   sun_icon,
   digital_icon,
   BrightImage,
+  GideonImage,
   moon_icon
 }
 
@@ -85,17 +87,17 @@ export const teamData = [
   { 
     name: 'Godfred Tetteh Osei', 
     title: 'Digital Media & Video Manager', 
-    image: 'https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?q=80&w=200' 
+    image: GideonImage
   },
   { 
     name: 'Peniel Azigo', 
     title: 'Vice President', 
-    image: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?q=80&w=200&h=200&auto=format&fit=crop' 
+    image: '' 
   },
   { 
     name: 'Team Member', 
     title: 'Software Engineer', 
-    image: 'https://randomuser.me/api/portraits/men/9.jpg' 
+    image: '' 
   },
   { 
     name: 'Team Member', 
@@ -110,11 +112,11 @@ export const teamData = [
   { 
     name: 'Team Member', 
     title: 'Digital Marketing Specialist', 
-    image: 'https://randomuser.me/api/portraits/women/12.jpg' 
+    image: '' 
   },
   { 
     name: 'Team Member', 
     title: 'Project Manager', 
-    image: 'https://randomuser.me/api/portraits/women/14.jpg' 
+    image: '' 
   },
 ]
