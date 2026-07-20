@@ -31,7 +31,7 @@ import sun_icon from './sun_icon.svg'
 import moon_icon from './moon_icon.svg'
 import networking_icon from './networking_icon.svg'
 import digital_icon from './digital_icon.svg'
-import BrightImage from './brightImage.jpg'
+import BrightImage from './BrightImage.jpg'
 
 export const company_logos = [
   microsoft_logo,
