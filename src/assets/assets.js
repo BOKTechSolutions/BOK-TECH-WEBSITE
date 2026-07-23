@@ -29,7 +29,10 @@ import google_logo from './google_logo.svg'
 import menu_icon_dark from './menu_icon_dark.svg'
 import sun_icon from './sun_icon.svg'
 import moon_icon from './moon_icon.svg'
-
+import networking_icon from './networking_icon.svg'
+import digital_icon from './digital_icon.svg'
+import BrightImage from './BrightImage.jpg'
+import GideonImage from './GideonImage.jpg'
 
 export const company_logos = [
   microsoft_logo,
@@ -43,11 +46,13 @@ export const company_logos = [
 const assets = {
   logo,
   arrow_icon,
+  
   group_profile,
   bgImage1,
   bgImage2,
   hero_img,
   ads_icon,
+  networking_icon,
   content_icon,
   marketing_icon,
   social_icon,
@@ -65,18 +70,53 @@ const assets = {
   logo_dark,
   menu_icon_dark,
   sun_icon,
+  digital_icon,
+  BrightImage,
+  GideonImage,
   moon_icon
 }
 
 export default assets
 
 export const teamData = [
-  { name: 'Haley Carter', title: 'CEO & founder', image: 'https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=200' },
-  { name: 'James Walker', title: 'Ads manager', image: 'https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?q=80&w=200' },
-  { name: 'Jessica Morgan', title: 'Vice president', image: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?q=80&w=200&h=200&auto=format&fit=crop' },
-  { name: 'Ashley Bennett', title: 'Marketing & sales', image: 'https://randomuser.me/api/portraits/women/10.jpg' },
-  { name: 'Emily Parker', title: 'Content marketer', image: 'https://randomuser.me/api/portraits/women/11.jpg' },
-  { name: 'Ryan Mitchell', title: 'Content writer', image: 'https://randomuser.me/api/portraits/men/9.jpg' },
-  { name: 'Megan Brooks', title: 'Performance manager', image: 'https://randomuser.me/api/portraits/women/12.jpg' },
-  { name: 'Amber Foster', title: 'Senior writer', image: 'https://randomuser.me/api/portraits/women/14.jpg' },
+  { 
+    name: 'Bright Owusu', 
+    title: 'Founder & Lead Software Engineer', 
+    image: BrightImage
+  },
+  { 
+    name: 'Godfred Tetteh Osei', 
+    title: 'Digital Media & Video Manager', 
+    image: GideonImage
+  },
+  { 
+    name: 'Peniel Azigo', 
+    title: 'Vice President', 
+    image: '' 
+  },
+  { 
+    name: 'Team Member', 
+    title: 'Software Engineer', 
+    image: '' 
+  },
+  { 
+    name: 'Team Member', 
+    title: 'IT Support Specialist', 
+    image: 'https://randomuser.me/api/portraits/women/10.jpg' 
+  },
+  { 
+    name: 'Team Member', 
+    title: 'UI/UX Designer', 
+    image: 'https://randomuser.me/api/portraits/women/11.jpg' 
+  },
+  { 
+    name: 'Team Member', 
+    title: 'Digital Marketing Specialist', 
+    image: '' 
+  },
+  { 
+    name: 'Team Member', 
+    title: 'Project Manager', 
+    image: '' 
+  },
 ]
