@@ -33,6 +33,11 @@ import networking_icon from './networking_icon.svg'
 import digital_icon from './digital_icon.svg'
 import BrightImage from './BrightImage.jpg'
 import GideonImage from './GideonImage.jpg'
+import ZinniaImage from './ZinniaImage.jpg'
+import AnnImage from './AnnImage.jpg'
+import LoviaImage from './LoviaImage.jpg'
+import KyeiImage from './KyeiImage.jpeg'
+import OdoImage from './OdoImage.jpeg'
 
 export const company_logos = [
   microsoft_logo,
@@ -46,7 +51,6 @@ export const company_logos = [
 const assets = {
   logo,
   arrow_icon,
-  
   group_profile,
   bgImage1,
   bgImage2,
@@ -73,6 +77,11 @@ const assets = {
   digital_icon,
   BrightImage,
   GideonImage,
+  ZinniaImage,
+  AnnImage,
+  LoviaImage,
+  KyeiImage,
+  OdoImage,
   moon_icon
 }
 
@@ -80,9 +89,14 @@ export default assets
 
 export const teamData = [
   { 
-    name: 'Bright Owusu', 
+    name: 'Bright Owusu Campbell', 
     title: 'Founder & Lead Software Engineer', 
     image: BrightImage
+  },
+  {
+    name:'Amy-Ann Asheley Ashitey',
+    title: 'Administrative Executive & Operations Manager ',
+    image: AnnImage
   },
   { 
     name: 'Godfred Tetteh Osei', 
@@ -90,33 +104,23 @@ export const teamData = [
     image: GideonImage
   },
   { 
-    name: 'Peniel Azigo', 
-    title: 'Vice President', 
-    image: '' 
+    name: 'Zinnia Georgina Yaa Wijsman',
+    title: 'Graphic Designer', 
+    image:  ZinniaImage
   },
   { 
-    name: 'Team Member', 
-    title: 'Software Engineer', 
-    image: '' 
+    name: 'Lovia Naa Adjeley Lomo', 
+    title: 'UI/UX  Designer', 
+    image: LoviaImage
   },
   { 
-    name: 'Team Member', 
-    title: 'IT Support Specialist', 
-    image: 'https://randomuser.me/api/portraits/women/10.jpg' 
+    name: 'Lawrencia Kyei Baffour', 
+    title: 'Front end web developer Intern', 
+    image: KyeiImage
   },
   { 
-    name: 'Team Member', 
-    title: 'UI/UX Designer', 
-    image: 'https://randomuser.me/api/portraits/women/11.jpg' 
-  },
-  { 
-    name: 'Team Member', 
-    title: 'Digital Marketing Specialist', 
-    image: '' 
-  },
-  { 
-    name: 'Team Member', 
-    title: 'Project Manager', 
-    image: '' 
-  },
+    name: 'Addobea Owusu Odame.', 
+    title: 'IT Support Intern', 
+    image: OdoImage
+  }
 ]
